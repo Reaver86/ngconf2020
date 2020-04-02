@@ -5,12 +5,17 @@
       "projectType": "application",
       "schematics": {
         "@nrwl/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:component": {
+          "style": "scss",
+          "skipTests": true
         }
       },
       "root": "apps/scully",
       "sourceRoot": "apps/scully/src",
-      "prefix": "ngconf2020",
+      "prefix": "ng",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
