@@ -17,5 +17,9 @@
     "baseUrl": ".",
     "paths": {}
   },
+  "angularCompilerOptions": {
+    "strictTemplates": true,
+    "strictInjectionParameters": true
+  },
   "exclude": ["node_modules", "tmp"]
 }

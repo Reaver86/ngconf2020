@@ -11,6 +11,11 @@
   <p>
     Thank you for using and showing some ♥ for Nx.
   </p>
+  <ul>
+    <li *ngFor="let hero of heroes; trackBy: trackByHero">
+      <div>{{ hero.id }} {{ hero.name }}</div>
+    </li>
+  </ul>
   <div class="flex github-star-container">
     <a
       href="https://github.com/nrwl/nx"
